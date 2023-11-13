@@ -1,6 +1,8 @@
 function Principal () {
     return(
         <div className="Main">
+            <div className="box">
+            </div>
             <div className="text">
                 <p>
                     Get <span>ready</span> for your business & upgrade <span>all aspects</span>
@@ -14,10 +16,10 @@ function Principal () {
             </div>
             <div className="botoes">
                 <button className="botao1">
-                    Discover More
+                    <a href="#">Discover More</a>
                 </button>
                 <button className="botao2">
-                    Contact us
+                    <a href="#">Contact us</a>
                 </button>
             </div>
         </div>
